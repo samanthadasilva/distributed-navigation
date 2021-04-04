@@ -22,3 +22,22 @@ header {
   align-items: center;
   padding: 1rem;
 }
+
+header img {
+  width: 2rem;
+}
+
+header nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+nav a {
+  text-decoration: none;
+}
