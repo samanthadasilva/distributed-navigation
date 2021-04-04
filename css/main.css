@@ -4,30 +4,24 @@ html {
   line-height: 1.5;
 
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-img {
-  width: 10%;
 }
 
 header {
   display: flex;
   padding: 1rem;
-  background-color: lightgray;
+  background-color: #e2e2e2;
   font-size: 1.125rem;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
 }
 
 header img {
   width: 2rem;
 }
 
-header nav ul{
+header nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -40,4 +34,5 @@ nav ul li {
 
 nav a {
   text-decoration: none;
+  color: #0074d9;
 }
