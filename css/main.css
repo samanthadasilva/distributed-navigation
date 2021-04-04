@@ -8,31 +8,52 @@ html {
   box-sizing: inherit;
 }
 
-header {
-  display: flex;
-  padding: 1rem;
-  background-color: #e2e2e2;
-  font-size: 1.125rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
+img {
   width: 2rem;
 }
 
-header nav ul {
-  list-style-type: none;
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
   padding: 0;
+  background-color: #e2e2e2;
+  font-size: 1.125rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: .75em;
   display: flex;
 }
 
 nav ul li {
   padding: 1rem;
-  font-size: 1.125rem;
 }
 
 nav a {
   text-decoration: none;
   color: #0074d9;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: .5rem;
+}
+
+header img {
+  margin: auto;
+}
+
+header p {
+  font-size: 1.125rem;
 }
